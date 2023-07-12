@@ -1,0 +1,4 @@
+#!/bin/bash
+source backend/delivery/bin/activate
+cd prj
+./manage.py runserver

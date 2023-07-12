@@ -1,0 +1,6 @@
+cd ../backend
+virtualenv -p python3 delivery
+source delivery/bin/activate
+pip install -r requirements.txt
+cd prj
+./manage.py migrate
